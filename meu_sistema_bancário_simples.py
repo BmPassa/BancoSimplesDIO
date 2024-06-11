@@ -33,8 +33,7 @@ while True:
         valor = float(input("Informe  valor do saque: "))
 
         if valor > saldo:
-            print(f"Operação negada por saldo insuficiente!\nSeu saldo atual é: R$ {
-                  saldo: .2f} ")
+            print(f"Operação negada por saldo insuficiente!\nSeu saldo atual é: R$ {saldo: .2f} ")
 
         elif valor > limite:
             print(
